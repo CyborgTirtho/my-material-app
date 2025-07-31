@@ -1,0 +1,14 @@
+<div
+  class="popup"
+  *ngIf="show"
+  [ngStyle]="{ top: top + 'px', left: left + 'px' }"
+  (mousedown)="startDrag($event)"
+>
+  <div class="popup-header">
+    <span>🪟 Draggable Popup</span>
+    <button (click)="closePopup()">✖</button>
+  </div>
+  <div class="popup-body">
+    <p>This popup was triggered by a button!</p>
+  </div>
+</div>

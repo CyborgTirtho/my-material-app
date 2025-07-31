@@ -1,0 +1,21 @@
+<div class="layout-container">
+  <mat-toolbar color="primary" class="header">
+    <span>To</span>
+    <span class="flip">D</span>
+    <span>o</span>
+    <span class="spacer"></span>
+    <a mat-button routerLink="/">Home</a>
+    <a mat-button routerLink="/about">About</a>
+  </mat-toolbar>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="footer">
+    © {{ year }} <span>To</span>
+    <span class="flip">D</span>
+    <span>o</span>
+    - By Chiranjib
+  </footer>
+</div>

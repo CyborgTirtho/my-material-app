@@ -1,0 +1,7 @@
+<p>home works!</p>
+
+<app-xlsx-reader></app-xlsx-reader>
+<button (click)="openPopup()">Open Draggable Popup</button>
+
+<app-popup-window [show]="popupVisible" (closePopupEvent)="onPopUpclosed($event)"></app-popup-window>
+

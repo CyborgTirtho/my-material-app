@@ -1,0 +1,36 @@
+/* Full page layout using flexbox */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 64px;
+}
+
+/* Spacer pushes links to right */
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Main content grows to fill space */
+.content {
+  flex: 1 1 auto;
+  padding: 24px;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+/* Footer always at bottom */
+.footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #000;
+  color: white;
+  height: 20px;
+}
