@@ -19,3 +19,10 @@
 .popup-body {
   padding: 15px;
 }
+
+
+.full-row-click {
+  cursor: pointer;
+  user-select: none;
+}
+
